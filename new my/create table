@@ -1,0 +1,12 @@
+create database college;
+create table students
+(
+    name char(25),
+    roll_no varchar(10),
+    dept char(10),
+    year integer(10)
+);
+show databases;
+desc students;
+insert into students values('manivannan','15bec209','ece','2018');
+select * from students;
