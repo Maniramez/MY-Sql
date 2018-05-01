@@ -1,0 +1,18 @@
+create database students;
+create table details
+(
+    name char(20),
+    roll_no varchar(20),
+    class char(20),
+    year integer(20)
+    );
+    show databases;
+
+insert into details values('ajith','15bec209',"ece","2018");
+insert into details values('dhoni','15bec211',"ece","2018");
+insert into details values('raina','15bec219',"eee","2018");
+insert into details values('watson','15bec200',"eie","2018");
+insert into details(name,roll_no) values('raydu','15bec222');
+alter table details drop year;
+alter table details add lanuguage char(10);
+select * from details;
